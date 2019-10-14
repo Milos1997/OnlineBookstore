@@ -1,30 +1,48 @@
 body{
-    margin-top: 15px;
     background: url("../img/pozadina.png");
     font-family: 'Poppins', sans-serif;
+}
+header{
+    padding-top: 8px;;
+    background-color: #3a3b3a;
+    height: 40px;
 }
 
 /*NAV*/
 #sign{
     text-decoration: none;
-    color: #111111;
+    color: #a8a8a8;
     margin-right: 25px;
 }
 
-#pomoc{
-    margin-right: 80px;
-    color: #111111;
-    font-weight: 500;
+#sign1{
     text-decoration: none;
+    color: #d1cdcd;
+    font-weight: bold;
 }
 
-#prijava a:hover{
-    color: #0596a6;
+.hdprijava{
+    text-align: right;
+}
+
+#pomoc{
+    color: #d1cdcd;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+#sign:hover{
+    color: #ededed;
+}
+
+#sign1:hover{
+    color: #ededed;
 }
 
 #logo{
-    width: 60px;
-    height: 35px;
+    width: 80px;
+    height: 80px;
 }
 
 .nav-item{
@@ -32,21 +50,78 @@ body{
     font-weight: bold;
 }
 
-#reg a{
-    text-decoration: none;
-    color: #0596a6;
+.navbar{
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 12px;
+    margin-top: 20px;
+    opacity: 50%;
 }
 
-#reg a:hover{
-    color: white;
+.btn{
+    height: 60px;
+    font-weight: bold;
 }
 
-.navbar {
-    position: sticky;
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 100;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffef43;
+    border-color: #ffef43;
+}
+
+.btn-warning:hover {
+    background-color: #fff266;
+    border-color: #fff266;
+}
+
+/* navbar animacija */
+#navbarNav ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  #navbarNav ul li a:hover {
+    color: #91640F;
+  }
+  #navbarNav ul li a:after {
+    display: block;
+    position: absolute;
     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #ffef43;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  #navbarNav ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+  transition: all .5s;
 }
+/* navbar animacija kraj*/
 
 /*NAV KRAJ*/
+
+.bigImg img{
+    width: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #detalji{
     text-align: right;
