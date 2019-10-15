@@ -1,0 +1,61 @@
+body {
+    background-color: #ffef43;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{ 
+    padding: 20px 20px 20px 20px;
+}
+
+.formBcg{
+    background-color: white;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=email], [type=password], [type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #111111;
+    box-shadow:none !important;
+}
+
+#korIme{
+    font-size: 12px;
+    padding: 2;
+}
+
+#povratak a{
+    color: #111111;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#povratak{
+    margin-top: 20px;;
+}
+
+.form-control{
+    box-shadow: none !important;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #111111;
+}
+
+#postojeci{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#novi{
+    text-decoration: none;
+    font-weight: bold;
+}

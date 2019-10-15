@@ -3,8 +3,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    padding-top: 8px;;
-    background-color: #3a3b3a;
+    padding-top: 8px;
+    background-color: #202020;
     height: 40px;
 }
 
@@ -54,7 +54,7 @@ header{
     box-shadow: 1px 1px 10px #888888;
     border-radius: 12px;
     margin-top: 20px;
-    opacity: 50%;
+    background-color: white;
 }
 
 .btn{
@@ -75,6 +75,14 @@ header{
 .btn-warning:hover {
     background-color: #fff266;
     border-color: #fff266;
+}
+
+#navigacija{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    margin-top: 60px;
+    max-width: 100%;
 }
 
 /* navbar animacija */
@@ -121,7 +129,7 @@ header{
     color: #111111;
     font-size: 25px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 170px;
     margin-bottom: 50px;
     text-align: center;
 }
