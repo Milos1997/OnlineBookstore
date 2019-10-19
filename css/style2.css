@@ -50,13 +50,6 @@ header{
     font-weight: bold;
 }
 
-.navbar{
-    box-shadow: 1px 1px 10px #888888;
-    border-radius: 12px;
-    margin-top: 20px;
-    background-color: white;
-}
-
 .btn{
     height: 60px;
     font-weight: bold;
@@ -78,8 +71,8 @@ header{
 }
 
 #navigacija{
-    position: fixed;
-    z-index: 100;
+    position: sticky;
+    top: 0;
     background-color: white;
 }
 
@@ -127,7 +120,7 @@ header{
     color: #111111;
     font-size: 25px;
     font-weight: bold;
-    margin-top: 170px;
+    margin-top: 60px;
     margin-bottom: 50px;
     text-align: center;
 }
