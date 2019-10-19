@@ -76,6 +76,10 @@ header{
     background-color: white;
 }
 
+.navbar{
+    background-color: white;
+}
+
 /* navbar animacija */
 #navbarNav ul li a {
     position:relative;

@@ -72,8 +72,10 @@ header{
 }
 
 #navigacija{
-    position: sticky;
-    top: 0;
+    background-color: white;
+}
+
+.navbar{
     background-color: white;
 }
 
