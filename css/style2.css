@@ -1,0 +1,251 @@
+body{
+    background: url("../img/pozadina.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding-top: 14px;
+    background-color: #202020;
+    padding-bottom: 14px;
+}
+
+/*NAV*/
+#sign{
+    text-decoration: none;
+    color: #a8a8a8;
+    margin-right: 25px;
+}
+
+#sign1{
+    text-decoration: none;
+    color: #d1cdcd;
+    font-weight: bold;
+}
+
+.hdprijava{
+    text-align: right;
+}
+
+#pomoc{
+    color: #d1cdcd;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+#sign:hover{
+    color: #ededed;
+}
+
+#sign1:hover{
+    color: #ededed;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    height: 60px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 100;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffef43;
+    border-color: #ffef43;
+}
+
+.btn-warning:hover {
+    background-color: #fff266;
+    border-color: #fff266;
+}
+
+#navigacija{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 10px -2px #dddcdc;
+}
+
+/* navbar animacija */
+#navbarNav ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  #navbarNav ul li a:hover {
+    color: #91640F;
+  }
+  #navbarNav ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #ffef43;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  #navbarNav ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+  transition: all .5s;
+}
+/* navbar animacija kraj*/
+
+/*NAV KRAJ*/
+
+.naslov{
+    color: #111111;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pitanje{
+    color: grey;
+    font-weight: bold;
+}
+
+.odgovor{
+    font-size: 14px;
+}
+
+form{
+    margin-top: 100px;
+}
+
+#prijavaSlika{
+    margin-top: 80px;
+}
+
+.knjigaNaslov{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#nameCard{
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#nameCard2{
+    color: grey;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#writeCard{
+    color: #111111;
+    font-size: 11px;
+    margin-top: -15px;
+}
+
+#card a{
+    text-decoration: none;
+}
+
+#card:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#card{
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#slikaK{
+    box-shadow: 2px 2px 10px #888888;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#tabela{
+    margin-top: 40px;
+    font-size: 25px;
+    border-bottom: 1px solid #111111;
+}
+
+#td{
+    color: red;
+    font-size: 20px;
+}
+
+#zanrovi a{
+    color: grey;
+    text-decoration: none;
+}
+
+#zanrovi li{
+    margin-bottom: 20px;
+}
+
+#zanrovi a:hover{
+    color: #111111;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 200px;
+    background-color: white;
+}
+
+#footer1{
+    font-weight: bold;
+    color: #111111;
+}
+
+#footer2{
+    color: grey;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#footer3{
+    text-align: center;
+    color: grey;
+}
+
+#adresa a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+}
+
+#adresa a:hover{
+    color: #111111;
+}
+
+li {
+    list-style-type: none;
+}
+/*FOOTER KRAJ*/

@@ -1,0 +1,312 @@
+body{
+    background: url("../img/pozadina.png");
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header{
+    padding-top: 14px;
+    background-color: #202020;
+    padding-bottom: 14px;
+}
+
+/*NAV*/
+#sign{
+    text-decoration: none;
+    color: #a8a8a8;
+    margin-right: 25px;
+}
+
+#sign1{
+    text-decoration: none;
+    color: #d1cdcd;
+    font-weight: bold;
+}
+
+.hdprijava{
+    text-align: right;
+}
+
+#pomoc{
+    color: #d1cdcd;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+#sign:hover{
+    color: #ededed;
+}
+
+#sign1:hover{
+    color: #ededed;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#btn{
+    height: 60px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 100;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffef43;
+    border-color: #ffef43;
+}
+
+.btn-warning:hover {
+    background-color: #fff266;
+    border-color: #fff266;
+}
+
+#navigacija{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 10px -2px #dddcdc;
+}
+
+/* navbar animacija */
+#navbarNav ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  #navbarNav ul li a:hover {
+    color: #91640F;
+  }
+  #navbarNav ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #ffef43;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  #navbarNav ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+  transition: all .5s;
+}
+/* navbar animacija kraj*/
+
+/*NAV KRAJ*/
+
+.bigImg{
+    background: url(../img/prvaVerzija.jpg) no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+  font-size: 55px;
+  font-weight: bold;
+  padding: 120px 0;
+  line-height: 120%;
+}
+
+.headerText2 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+#detalji{
+    text-align: right;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#detalji a{
+    text-decoration: none;
+    color: gray;
+}
+
+#detalji :hover{
+    color: #111;
+}
+
+#naziv{
+    color: grey;
+    font-weight: bold;
+    font-size: 5.7vw;
+    text-align: left;
+    line-height: 80%;
+    margin-top: 20px;
+}
+
+#pisac{
+    color: #111111;
+    text-align: left;
+}
+
+#btn1 .btn-warning{
+    margin-top: -120px;
+    margin-bottom: 130px;
+    height: 60px;
+    width: 250px;
+    font-weight: bold;
+}
+
+#prva{
+   width: 50%;
+   margin-bottom: 20px;
+}
+
+#noviNaslovi{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    color: grey;
+    font-weight: 100;
+}
+
+#noviNaslovi2{
+    color: grey;
+    font-weight: 100;
+}
+
+#card a{
+    text-decoration: none;
+}
+
+#card:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+#card{
+    transition: transform .2s;
+}
+
+#card img{
+    box-shadow: 2px 2px 10px #888888;
+    border-radius: 25px;
+}
+
+.carousel{
+    margin-bottom: 180px;
+}
+
+#nameCard{
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#writeCard{
+    text-align: center;
+    color: #111111;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+#top5{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#slika
+{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #ffef43;
+}
+
+.naslovA{
+    text-align: center;
+    color: #91640F;
+    font-weight: bold;
+}
+
+.podnaslov{
+    margin-top: 40px;
+    color: rgb(204, 162, 83);
+    font-size: 24px;
+}
+
+.textA{
+    text-align: justify;
+    color: #91640F;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#akcijaLink{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(204, 162, 83);
+}
+
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #ffef43;
+    border-color: #ffef43;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 200px;
+    background-color: white;
+}
+
+#footer1{
+    font-weight: bold;
+    color: #111111;
+}
+
+#footer2{
+    color: grey;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#footer3{
+    text-align: center;
+    color: grey;
+}
+
+#adresa a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+}
+
+#adresa a:hover{
+    color: #111111;
+}
+
+li {
+    list-style-type: none;
+}
+/*FOOTER KRAJ*/
