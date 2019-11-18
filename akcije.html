@@ -9,11 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- FontAwesome CSS -->
+    <!--fontAwesome CSS-->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
     <!--AOS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Kontakt informacije | KNJIŽARA</title>
+    <title>Akcije | KNJIŽARA</title>
 </head>
 
 <body>
@@ -64,13 +64,13 @@
                         <a class="nav-link" href="deca.html">Za decu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="akcije.html">Akcije</a>
+                        <a class="nav-link" href="akcije.html">Akcije <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="novosti.html">Novosti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="onama.html">O nama</a>
@@ -82,42 +82,24 @@
     </nav>
     <!--NAVIGACIJA KRAJ-->
 
-    </div>
-
     <div class="container">
-        <h3 style="margin-top: 70px; color: #111111;">Kontakt</h3>
-
-        <div class="row" style="margin-top: 50px;">
-            <div class="col-md-6 col-sm" data-aos="fade-up">
-                <ul style="padding-top: 30px;">
-                    <b>Klub čitalaca</b>
-                    <li>Vojvode Stepe 283</li>
-                    <li>11000 Beograd</li>
-                    <li>Tel: 011/71-55-055</li>
-                    <li>e-mail: info@email.rs</li>
-                    <li>Radno vreme: radnim danima 9-17h</li>
-                </ul>
-                <ul>
-                    <b>Redakcija</b>
-                    <li>Vojvode Stepe 283</li>
-                    <li>11000 Beograd</li>
-                    <li>Tel: 011/71-55-055</li>
-                    <li>Fax: 011/71-55-085</li>
-                    <li>e-mail: info@email.rs</li>
-                    <li>Radno vreme: radnim danima 9-17h</li>
+        <div class="row" data-aos="fade-up">
+            <div class="col-md-4">
+                <h3 class="akcijeNaslov">Akcija traje od 18.11. do 18.02.2020.</h3>
+                <p>Samo u našim knjižarama:</p>
+                <ul class="akcije">
+                    <li>ARTIKLI SNIŽENI ZA 40%</li>
+                    <li>ARTIKLI SNIŽENI ZA 50%</li>
+                    <li>ARTIKLI SNIŽENI ZA 60%</li>
                 </ul>
             </div>
-
-            <div class="col-md-6 col-sm" data-aos="fade-up">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.6132541470474!2d20.477827215429095!3d44.76830157909882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f8df8b60e1%3A0xd12e2aad5590e385!2z0JLQuNGB0L7QutCwINGI0LrQvtC70LAg0LXQu9C10LrRgtGA0L7RgtC10YXQvdC40LrQtSDQuCDRgNCw0YfRg9C90LDRgNGB0YLQstCwINGB0YLRgNGD0LrQvtCy0L3QuNGFINGB0YLRg9C00LjRmNCwINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1571504295451!5m2!1ssr!2srs"></iframe>
-                </div>
+            <div class="col-md-8">
+                <div id="akcije"></div>
             </div>
         </div>
     </div>
 
-
-
+    <!--FOOTER-->
     <!--FOOTER-->
     <div class="container">
 
@@ -173,9 +155,9 @@
     </script>
 
     <!--Custom JS-->
-    <script src=""></script>
+    <script src="./customJS/akcije.js" type="module"></script>
+    <script src="./customJS/knjige.js" type="module"></script>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

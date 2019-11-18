@@ -197,6 +197,33 @@ form {
     font-weight: bold;
 }
 
+.nameCard {
+    color: grey;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.writeCard {
+    color: #111111;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+#opisKnjige {
+    text-align: justify;
+}
+
+.zanr {
+    margin-top: 20px;
+    font-size: 13px;
+    color: grey;
+}
+
+#JSbtn {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
 #writeCard {
     color: #111111;
     font-size: 11px;
@@ -205,6 +232,15 @@ form {
 
 #card a {
     text-decoration: none;
+}
+
+#oKnjizi {
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.cena {
+    color: rgb(196, 15, 15);
 }
 
 #card:hover {
@@ -228,6 +264,18 @@ form {
     margin-top: 40px;
     font-size: 25px;
     border-bottom: 1px solid #111111;
+}
+
+.table {
+    background-color: rgb(235, 240, 241);
+    margin-top: 100px;
+}
+
+.DMopis {
+    margin-top: 60px;
+    color: grey;
+    text-align: right;
+    font-size: 14px;
 }
 
 #td {
