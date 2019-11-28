@@ -87,9 +87,33 @@
         <div class="row">
             <div class="col-md-4">
                 <div data-aos="fade-up" id="slikaKnjige"></div>
+
+                <!-- Button trigger modal -->
+                <button data-aos="fade-up" id="JSbtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Kupite</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Potvrda kupovine!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                Da li ste sigurni da želite da nastavite?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Otkaži</button>
+                                <button id="potvrda" type="button" class="btn btn-success">Potvrda</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-8">
                 <div data-aos="fade-up" id="opisKnjige"></div>
+
                 <div class="DMopis">
                     <p>Pratite nas na društvenim mrežama:</p>
                     <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>

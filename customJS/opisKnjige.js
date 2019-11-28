@@ -16,6 +16,7 @@ $(document).ready(() => {
     const idSlikaKnjige = document.getElementById("slikaKnjige");
     const idOpisKnjige = document.getElementById("opisKnjige");
     const idSpecifikacija = document.getElementById("specifikacija");
+    const idPotvrda = document.getElementById("potvrda");
 
     idSlikaKnjige.innerHTML += `
         <img id="slikaK" src="${knjiga.slika}">
@@ -23,14 +24,16 @@ $(document).ready(() => {
         <p class="writeCard">${knjiga.pisac}</p>
         <p class="zanr">Žanr: ${knjiga.zanr}<br>Godina izdanja: ${knjiga.godina}</p>
         <p class="cena">Cena: ${knjiga.cena}</p>
-        <button id="JSbtn" type="button" class="btn btn-primary" 
-        onclick='alert("Hvala Vam što kupujete kod nas!");'>Kupite</button>
         `;
 
     idOpisKnjige.innerHTML += `
         <h3 id="oKnjizi">O knjizi<hr></h3>
         <p>${knjiga.opis}</p><hr>
     `;
+
+    idPotvrda.addEventListener('click', function() {
+        alert("Hvala Vam što kupujete kod nas!");
+    });
 
     idSpecifikacija.innerHTML += `
     <table class="table">
